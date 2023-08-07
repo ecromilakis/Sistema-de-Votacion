@@ -1,3 +1,5 @@
+https://github.com/ecromilakis/Sistema-de-Votacion.git
+
 Para poder instalar el proyecto lo primero que debe hacer es ingresar a la URL para poder descargar el proyecto, se deben descargar todos los archivos.
 Una vez descargados los archivos debe utilizar el servidor de su preferencia, en mi caso yo utilizo XAMPP.
 Luego en el servidor local debe crear una carpeta con el nombre prueba-desis.
