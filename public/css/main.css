@@ -1,0 +1,103 @@
+/* ========================================================== */
+/*                01. FORMULARIO DE CONTACTO                   */
+/* ========================================================== */
+main{
+  width: 100%;
+  max-width:960px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  border-radius: 5px;
+  border: 1px solid #BFBFBF;
+}
+.container{
+  margin: 6% 6% 2% 6%;
+}
+
+.formVot{
+  width: 100%;
+}
+.formVot label{
+  float: left;
+  width: 30%;
+}
+.formVot input, .formVot select{
+  width:50%;
+  height:30px;
+  padding-left:2%;
+  padding-right:2%;
+  margin-bottom:20px;
+  border: 1px solid #757575;
+  background-color: transparent;
+  font-size:14px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.formVot input.check{
+  background-color: red;
+  float: left;
+  width: 10px;
+}
+.lavel{
+  float: left;
+  margin-top: 10px;
+  max-width: 50px;
+}
+.lavels{
+  float: left;
+  margin-top: 10px;
+  max-width: 140px;
+}
+
+p.contact_error_box {
+    display: block;
+    color: #cf4545;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px 20px;
+    border: 1px solid #cf4545;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    width: 100%;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #555252;
+    margin-bottom: 15px;
+} 
+.container-btn{
+  width: 100%;
+  margin-top: 10px;
+float: left;
+}
+.btn {
+    font-size: 16px;
+    overflow: hidden;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+  color: #fff;
+  color: #378f9a;background-color:  transparent;border-color: #378f9a;
+  cursor: pointer;
+}
+
+/*INICIO ERROR*/
+form.cmxform label.error, label.error {
+  color: red;
+  font-style: italic;
+  width: 100%;
+  float: left;
+}
+div.error { display: none; }
+input.error { border: 1px dotted red; }
+

@@ -1,0 +1,41 @@
+Para poder instalar el proyecto lo primero que debe hacer es ingresar a la URL para poder descargar el proyecto, se deben descargar todos los archivos.
+Una vez descargados los archivos debe utilizar el servidor de su preferencia, en mi caso yo utilizo XAMPP.
+Luego en el servidor local debe crear una carpeta con el nombre prueba-desis.
+Dentro de la carpeta debe estar 
+la carpeta SQL
+la carpeta class
+la carpeta public
+
+Además  se encuentra los archivos:
+
+ajaxData.php
+index.php
+send_vote.php
+
+En la carpeta SQL se encuentra la base de datos MySQL con el nombre votacion.sql
+En el administrador de base de datos debe crear la base de datos con el nombre votación. En mi caso yo utilizo phpmyadmin.
+Una vez creada la base de datos debe importar el archivo votacion.sql que se encuentra en la carpeta SQL.
+Luego debe dirigirse a la carpeta class que contiene la carpeta adodb, esta carpeta contiene un conjunto de bibliotecas de bases de datos para PHP y asi poder cambiar de MySQL a PostgreSQL u otras bases de datos, esta carpeta de deja sin hacer cambios.
+Luego nos dirigimos a la carpeta class donde encontraremos el archivo connect.php. Este es el archivo de conexión a la base de datos en este archivo debemos cambiar el nombre de usuario, por el nombre de usuario que tenga su base de datos y también debemos cambiar la contraseña por la contraseña que tenga en su base de datos.
+
+$db->Connect("localhost","Mi Usuario","Mi Contraseña","Mi base de datos");
+
+La carpeta public dentro debe tener la carpeta css y js
+La carpeta css contiene el archivo main.css que le da estilo al formulario.
+La carpeta js contiene el archivo main.js este archivo contiene las funciones JavaScript y también contiene la carpeta libs y esta carpeta contiene los archivos jquery.validate.min.js y jquery-3.5.1.min.js que es la librería de jQuery y un validador de formulario.
+
+Con toda la estructura de carpetas y archivos lista, con la modificación de usuario y contraseña de la conexión de base de datos. y con la creación e importación de la base de datos, solo nos queda ir a localhost de nuestro servidor y agregar la carpeta prueba-desis para ver nuestro proyecto funcionando.
+
+-- INFORMACION IMPORTANTE --
+-- phpMyAdmin SQL
+-- version 5.2.0
+-- Servidor: 127.0.0.1
+-- Versión de PHP: 8.0.25
+
+
+
+
+ 
+
+ 
+
